@@ -43,3 +43,22 @@ p {
 #navbarNavDropdown {
     font-size: 12px;
 }
+
+@media (max-width:1000px) {
+    .navbar  {
+       display: none !important;
+    }
+    .help {
+        display: none;
+    }
+    .wrapper {
+        
+        p {
+            display: none;
+        }
+        img {
+            margin: 0 !important;
+        }
+    }
+    
+}
