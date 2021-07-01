@@ -7,15 +7,38 @@
 p {
     background-color: #000;
     color: #fff;
-    white-space: pre;
+    white-space: pre-wrap;
     line-height: 1.1;
+    flex: 0 1 auto;
    margin-bottom: 0px !important;
+   max-width: 700px;
    span {
        font-size: 1.5rem;
        color: red;
    }
 }
+.images {
+    flex: 1 0 auto;
+    background-color:#000;
+    img {
+        margin: 0 0 0 auto;
 
+    }
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .navbar {
     user-select: none; 
+}
+.hr {
+    margin: 0 !important;
+    height: 30px !important;
+    background-color: red !important;
+    opacity: 1 !important;
+}
+
+#navbarNavDropdown {
+    font-size: 12px;
 }
