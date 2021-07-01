@@ -1,0 +1,21 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+p {
+    background-color: #000;
+    color: #fff;
+    white-space: pre;
+    line-height: 1.1;
+   margin-bottom: 0px !important;
+   span {
+       font-size: 1.5rem;
+       color: red;
+   }
+}
+
+.navbar {
+    user-select: none; 
+}
